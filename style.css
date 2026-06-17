@@ -1,0 +1,68 @@
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+.wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 { 
+    text-align: center; 
+    color: #2c3e50; 
+    margin-bottom: 30px;
+}
+
+/* Контейнер кнопок как аккуратная панель */
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+    gap: 8px;
+    background: #fff;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    margin-bottom: 20px;
+}
+
+.btn {
+    padding: 10px;
+    background: #e9ecef;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.2s;
+}
+
+.btn:hover {
+    background: #007bff;
+    color: white;
+}
+
+/* Карточка для ответа */
+#answer-display {
+    background: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    min-height: 250px;
+}
+
+#answer-display h2 { 
+    margin-top: 0; 
+    color: #007bff; 
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+#answer-box { 
+    font-size: 25px; 
+    line-height: 1.7; 
+    white-space: pre-line;
+    color: #444;
+}
